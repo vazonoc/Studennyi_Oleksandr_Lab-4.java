@@ -36,9 +36,6 @@ public class Main {
 
 class Exercise_2_1 {
     public static void main(String[] args) {
-        int i = 0;        int a[] = {2, 17, 13, 6, 22, 31, 45, 66, 100, -18};
-        while (i < a.length) {            i++;
-            System.out.println(a[i] + " ");        }
         int i = 0;
         int[] a = {2, 17, 13, 6, 22, 31, 45, 66, 100, -18};
         while (i < a.length) {
@@ -51,10 +48,6 @@ class Exercise_2_1 {
 
 class Exercise_2_2 {
     public static void main(String[] args) {
-        int a[] = {2,17,13,6,22,31,45,66,100,-18};
-        for (int i = 0; i <a.length ; i++)
-        {
-            System.out.println(a[i]+ " ");
         int[] a = {2, 17, 13, 6, 22, 31, 45, 66, 100, -18};
         for (int num : a) {
             System.out.println(num + " ");
